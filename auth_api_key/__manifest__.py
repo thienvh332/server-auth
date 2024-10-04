@@ -4,11 +4,13 @@
 {
     "name": "Auth Api Key",
     "summary": """
-        Authenticate http requests from an API key""",
-    "version": "17.0.1.0.0",
+        MODULE DEPRECATED:
+            Use Odoo 18.0 built-in `res.users.apikeys` and `bearer` authorization header
+    """,
+    "version": "18.0.1.0.0",
     "license": "LGPL-3",
     "author": "ACSONE SA/NV,Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/server-auth",
     "development_status": "Beta",
-    "data": ["security/ir.model.access.csv", "views/auth_api_key.xml"],
+    "data": [],
 }

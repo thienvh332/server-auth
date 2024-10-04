@@ -1,12 +1,3 @@
-Authenticate http requests from an API key.
-
-API keys are codes passed in (in the http header API-KEY) by programs
-calling an API in order to identify -in this case- the calling program's
-user.
-
-Take care while using this kind of mechanism since information into http
-headers are visible in clear. Thus, use it only to authenticate requests
-from known sources.
-
-For unknown sources, it is a good practice to filter out this header at
-proxy level.
+This module is deprecated in Odoo 18.0. 
+Please switch to Odoo 18.0 built-in `res.users.apikeys` and `bearer` authorization header.
+The module is no longer maintained and should not be installed on Odoo 18.0 or later.
